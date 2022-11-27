@@ -1,0 +1,52 @@
+/*MOBILE*/
+
+#section1-hero .hero-mask{
+    background-image: 
+        linear-gradient(
+        rgba(40, 52, 132, 0.85), 
+        rgba(40, 52, 132, 0.85)
+        ),
+        url(../img/hero.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    #section1-hero .hero-mask{
+        height: 0;
+        padding-bottom: 37.5%;
+        -webkit-mask-image: url(../img/mask.svg);
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-size:  100vw;
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+    #section1-hero .hero-mask{
+        padding-bottom: 25%;
+        -webkit-mask-image: url(../img/mask-xxl.svg);
+    }
+   
+
+}

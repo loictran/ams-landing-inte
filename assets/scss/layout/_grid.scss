@@ -1,0 +1,51 @@
+/*MOBILE*/
+.container {
+    width: 100%;
+    padding-right: $gutter;
+    padding-left: $gutter;
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        width: $container-small;
+        margin: 0 auto;
+    }
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+    .container {
+        width: $container-medium;
+    }
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    .container {
+        width: $container-large;
+    }
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+    .container {
+        width: $container-xl;
+    }
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+    .container {
+        width: $container-xxl;
+    }
+}
+
+/*XXX-LARGE*/
+@media #{$query-xxxl} {
+    .container {
+        width: $container-xxl;
+    }
+}

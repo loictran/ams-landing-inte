@@ -1,0 +1,40 @@
+/*MOBILE*/
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    #section2-cards {
+
+        & .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            position: relative;
+            top: -70px;
+        }
+    }
+    
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+    .card-container {
+        top: -90px;
+    }
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+    .card-container {
+    }
+}

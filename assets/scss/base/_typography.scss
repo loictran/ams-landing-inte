@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,600&family=Noto+Serif:wght@700&display=swap');
+
+/*MOBILE*/
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    padding: 1em 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.display-1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 0 2em 0;
+    max-width: 760px;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: $primary-blue;
+    line-height: 1.5;
+    padding: 1em 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    h1 {
+        font-size: 32px;
+        padding: 1em 0;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .display-1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+    h1 {
+        font-size: 40px;
+        padding: 1em 0;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .display-1 {
+        font-size: 20px;
+    }
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+    h1 {
+        padding: 0 0 .5em 0;
+        line-height: 1.2;
+    }
+}
+
+/*XXX-LARGE*/
+@media #{$query-xxxl} {
+    h1 {
+        padding: 1em 0;
+    }
+}

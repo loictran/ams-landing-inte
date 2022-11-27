@@ -1,0 +1,74 @@
+/*MOBILE*/
+#main-footer {
+    background-color: $primary-blue;
+    color: #fff;
+    font-family: 'Mulish';
+    padding: 4em 0 0 0;
+
+    & .container {
+        text-align: center;
+
+        & #footer-logo {
+            padding-bottom: 4em;
+        }
+        & .footer-list {
+            text-align: left;
+            padding-bottom: 4em;
+
+            & .footer-title {
+                font-size: 18px;
+                font-weight: 600;
+                padding-bottom: 2em;
+            }
+            & li {
+                padding-bottom: .8em;
+            }
+            & a {
+                color: #fff;
+            }
+            & ul ul {
+                display: flex;
+                gap: 2em;
+            }
+        }
+    }
+
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    #main-footer {
+        padding: 8em 0 4em 0;    
+
+        & .container {
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            
+        }
+    
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

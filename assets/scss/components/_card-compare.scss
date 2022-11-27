@@ -1,0 +1,134 @@
+/*MOBILE*/
+#section4-compare {
+
+    & .card-compare-wrapper {
+        position: relative;
+        padding: 1em $gutter;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+
+        & .card-compare-wrapper-container {
+            position: relative;
+            left: 0;
+            top: 0;
+            display: flex;
+            gap: 20px;
+            transition: all .3s ease-in-out;
+
+            & .card-compare {
+                background-color: #fff;
+                min-width: 90%;
+                padding: 2em 15px;
+                border-radius: 19px;
+                box-shadow: 0px 6px 6px #25398121;
+                text-align: center;
+                transition: all .3s ease-in-out;
+    
+                & .card-compare-tile {
+                    font-family: 'Mulish';
+                    font-weight: 900;
+                    font-size: 32px;
+                    position: relative;
+                    z-index: 3;
+                }
+                & .card-compare-subtile {
+                    font-family: 'Mulish';
+                    font-weight: 200;
+                    font-size: 24px;
+                    color: $primary-blue;
+                }
+                & .card-compare-tile::before {
+                    content: '';
+                    display: block;
+                    height: 9px;
+                    margin: 0 auto;
+                    position: relative;
+                    top: 36px;
+                    z-index: -1;
+                }
+                
+                & #card-compare-title-free::before {
+                    background-color: $secondary-blue;
+                    width: 94px;
+                }
+                & #card-compare-title-premium::before {
+                    background-color: $yellow;
+                    width: 170px;
+                }
+                & .card-button-free {
+                    position: relative;
+                    top: 18px;
+                }
+                & ul {
+                    padding: 2em 0;
+    
+                    & li {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 16px;
+                        text-align: left;
+    
+                        & p {
+                            font-family: 'Mulish';
+                            padding: .5em 0;
+                            max-width: 287px;
+                        }
+                        & .active-feature {
+                            font-weight: 900;
+                        }
+                        & .inactive-feature {
+                            font-weight: 200;
+                            color: #cbcbcb;
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+
+        
+        
+    }
+    & .card-compare-wrapper::-webkit-scrollbar {
+        display: none;//remove scrollbar CHROME 
+    }
+    
+}
+
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+    .card-compare-wrapper {
+        justify-content: center;
+
+        & .card-compare {
+            min-width: unset !important;
+            width: 400px;
+        }
+    }
+    
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

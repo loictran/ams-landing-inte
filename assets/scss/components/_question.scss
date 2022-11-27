@@ -1,0 +1,101 @@
+/*MOBILE*/
+.question {
+    background-color: $xtra-light;
+    padding: 2em;
+
+    & .question-title-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .question-title {
+            font-family: 'Mulish';
+            font-weight: 600;
+            color: $primary-blue;
+            font-size: 18px;
+        }
+        & .display-button {
+            position: relative;
+            transform-origin: center;
+            transition: all .3s ease-in-out;
+            display: block;
+            height: 16px;
+            width: 16px;
+
+            & span {
+                position: absolute;
+                display: block;
+                background-color: $primary-blue;
+                transition: all .3s .3s;
+            }
+            & #vertical {
+                width: 4px;
+                height: 16px;
+                left: 6px;
+            }
+            & #horizontal {
+                width: 16px;
+                height: 4px;
+                top: 6px;
+            }
+        }
+        
+
+    }
+    
+    & .question-answer {
+        font-family: 'Mulish';
+        color: $primary-blue;
+        font-size: 16px;
+        line-height: 1.5;
+        overflow: hidden;
+        height: 0;
+        transition: all .3s;
+
+        & span {
+            font-weight: 600;
+            padding-bottom: 1em;
+        }
+        & a {
+            color: $secondary-blue;
+            transition: all .3s;
+        }
+        & a:hover {
+            color: $primary-blue;
+        }
+    }
+    & .question-answer-ative {
+        height: auto;
+        padding-top: 2em;
+    }
+}
+.question:hover {
+    cursor: pointer;
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

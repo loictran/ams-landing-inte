@@ -1,0 +1,30 @@
+$gutter: 15px;
+
+/* Colors: */
+$primary-blue: #273583;
+$secondary-blue: #4DC3F7;
+$tertiary-blue: #182467;
+$red: #E7343F;
+$yellow: #CDA139;
+$xtra-light: #FAFBFF;
+
+/* RESPONSIVE */
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxxl: 1600px;
+
+$container-small: 540px;
+$container-medium: 720px;
+$container-large: 960px;
+$container-xl: 1140px;
+$container-xxl: 1320px;
+
+$query-small: 'screen and (min-width: #{$breakpoint-small})';
+$query-medium: 'screen and (min-width: #{$breakpoint-medium})';
+$query-large: 'screen and (min-width: #{$breakpoint-large})';
+$query-xl: 'screen and (min-width: #{$breakpoint-xl})';
+$query-xxl: 'screen and (min-width: #{$breakpoint-xxl})';
+$query-xxxl: 'screen and (min-width: #{$breakpoint-xxxl})';

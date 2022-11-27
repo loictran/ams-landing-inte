@@ -1,0 +1,29 @@
+.cta {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1em 2em;
+    border-radius: 19px;
+}
+.card-button-free {
+    color: $primary-blue;
+    background-color:#fff;
+    border: solid 1px $primary-blue;
+    transition: all .3s;
+}
+.card-button-free:hover {
+    color: $secondary-blue;
+    border: solid 1px $secondary-blue;
+    box-shadow: -3px -3px 4px #b1edff73, 3px 3px 4px #3a5cbc49;
+}
+.card-button-premium {
+    color: #fff;
+    background-color: $yellow;
+    transition: all .3s;
+}
+.card-button-premium:hover {
+    color: $yellow;
+    background-color: #fff;
+    border: solid 1px $yellow;
+    box-shadow: -3px -3px 4px #e9c57151, 3px 3px 4px #ac862c51;
+}

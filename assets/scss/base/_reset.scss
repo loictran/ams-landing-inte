@@ -1,0 +1,112 @@
+/* Reset =================================================== */
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+ul {
+  list-style-type: none;
+}
+/*
+Pour se faciliter les calculs on utilise la propriété 
+box-sizing sur tous les divs et éléments structurants (non supportée par IE6 et IE7)
+Voir le cours : Boîtes > Taille de boîte 
+*/
+* {
+  -webkit-box-sizing: border-box; /* iOS < 5 , Android < 4 */
+  -moz-box-sizing: border-box; /* Firefox */
+  box-sizing: border-box; /* Standard W3C */
+}
+/* Fix =================================================== */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
